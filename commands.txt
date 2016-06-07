@@ -20,5 +20,18 @@ IGNORE 1 LINES
 (ProduceId, Name, ProduceType, Color);
 
 
--NOT A SQL COMMAND
+-NOT A SQL COMMAND 
  mysqldump -u root -p --databases MauroLab1 > MauroLab1.sql
+
+
+
+ ####GIT
+git init(new project only)
+git status (to see unchanged/new files)
+git add -A (add all files)
+
+git commit -m "Lab 1 complete" (do this once after you make changes but before pushing to github)
+
+git remote add origin https://github.com/MauroKeyes/CISC215-Lab1.git (just once per new repository)
+
+
