@@ -8,3 +8,4 @@
     ProduceType varchar(10),
     Color  varchar(35)
     );
+    
