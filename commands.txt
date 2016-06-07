@@ -1,0 +1,24 @@
+
+### SQL
+mysql -p -u root
+
+create database MauroLab1;
+
+create table...
+
+use table Produce
+
+select * from Produce (shows all rows)
+delete from produce (deletes all rows)
+
+--Loads data from csv file
+LOAD DATA LOCAL INFILE 'Produce.csv' INTO TABLE Produce
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(ProduceId, Name, ProduceType, Color);
+
+
+-NOT A SQL COMMAND
+ mysqldump -u root -p --databases MauroLab1 > MauroLab1.sql
